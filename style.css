@@ -6,7 +6,7 @@ h1 {
 }
 
 .header{
-    background-color: rebeccapurple;
+    background-color: #FF23FF;
 display: flex;
 justify-content:space-between;
     
@@ -29,4 +29,7 @@ justify-content:flex-end;
 }
 p.h2{
     text-align: center;
+}
+body{
+    background-color: #43FFFF;
 }
