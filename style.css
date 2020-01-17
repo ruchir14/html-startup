@@ -1,7 +1,12 @@
+
+
+
+
 h1 {
     color :brown;
+    padding-left: 500px ;
 }
-* {
+  .header *{
     border :solid;
 }
 
@@ -32,4 +37,27 @@ p.h2{
 }
 body{
     background-color: #43FFFF;
+}
+a:link{
+ color :RED;
+}
+a:visited{
+    color :greenyellow;
+}
+.menu a {
+    margin-right: 60px;
+}
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 2;
 }
